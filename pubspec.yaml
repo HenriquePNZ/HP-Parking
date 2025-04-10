@@ -1,0 +1,34 @@
+name: entrega01
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  firebase_storage: ^12.3.4
+  cloud_firestore: ^5.4.4
+  flutter_bloc: ^8.1.6
+  dio: ^5.7.0
+  socket_io_client: ^3.0.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  fonts:
+    - family: Roboto
+  uses-material-design: true
+
+  assets:
+    - assets/fundo_app.jpg
+    - assets/logo_login.png
+    - assets/logo_home.png
